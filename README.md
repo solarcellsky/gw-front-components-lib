@@ -24,7 +24,7 @@ npm i
 --or--
 
 # yarn安装依赖
-yarnß
+yarn
 ```
 #### 修改项
 1. 打开`package.json`，修改`name`属性（您的库名称）
