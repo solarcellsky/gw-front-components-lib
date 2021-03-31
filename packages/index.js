@@ -1,6 +1,15 @@
-import Button from './button';
+import ElementUI from 'element-ui';
+import 'element-ui/lib/theme-chalk/index.css';
+import Vue from 'vue';
+import GwButton from './button';
+import GwFormBulder from './form';
 
-const components = [Button];
+Vue.use(ElementUI);
+
+const components = [
+  GwButton,
+  GwFormBulder
+];
 
 const install = function (Vue, opts = {}) {
   components.forEach(component => {
@@ -15,5 +24,6 @@ if (typeof window !== 'undefined' && window.Vue) {
 
 export default {
   install,
-  Button
+  GwButton,
+  GwFormBulder
 };

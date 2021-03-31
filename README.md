@@ -8,6 +8,7 @@
  |-- packages              --------组件开发
  |-- examples              --------组件示例
  |-- lib                   --------组件打包后的目录
+ |-- types                 --------不用做改动
 ```
 
 ### 如何使用
@@ -16,8 +17,13 @@
 
 ```bash
 # 克隆代码
-git clone https://github.com/Murphy573/vue-package-template.git
+git clone https://github.com/solarcellsky/gw-front-components-lib.git
 # npm安装依赖
+npm i
+
+--or--
+
+# yarn安装依赖
 npm i
 ```
 #### 修改项
@@ -33,5 +39,3 @@ npm i
 ### License
 
 [MIT](http://opensource.org/licenses/MIT)
-
-<p style="font-size:18px;" align="center">👉 `来都来了，点个 Star⭐️ 支持一下吧` 👈</p>

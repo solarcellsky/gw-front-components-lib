@@ -1,8 +1,8 @@
-import Button from './src/index';
+import GwButton from './src/button';
 
 /* istanbul ignore next */
-Button.install = function (Vue) {
-  Vue.component(Button.name, Button);
+GwButton.install = function(Vue) {
+  Vue.component(GwButton.name, GwButton);
 };
 
-export default Button;
+export default GwButton;
